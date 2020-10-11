@@ -14,8 +14,8 @@ $(document).ready(function() {
       return parseInt(crusts);
     }
     function topping() {
-      var toppings= $("input:radio[name=toppings]:checked").val();
-      return parseInt(toppings);
+      var toppings1 = document.getElementById("toppings").value;
+      return parseInt(toppings1);
     }
     function delivery() {
       var delivery1 = document.getElementById("delivery").value;
