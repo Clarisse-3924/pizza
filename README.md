@@ -7,7 +7,7 @@
 
 #Link to live site on GitHub Pages:[click here to see website]( https://clarisse-3924.github.io/pizza/)
 
-#Project description:This project is Online Pizza ordering, this websites allows users to order different types of pizza according to thier sizes,toppings and crust.It also Calculated the total price of piza according to the quantity a user wants. Additionally, it show the sumary of order ma
+#Project description:This project is Online Pizza ordering, this websites allows users to order different types of pizza according to thier sizes,toppings and crust.It also Calculated the total price of piza according to the quantity a user wants. Additionally, it show the sumary of order that a user have ordered
 
 #Technologies used: I have used: html,javascripts,css,jquerries,object and constructors,Bootstrap,css
 
