@@ -43,11 +43,6 @@ $(document).ready(function() {
     prompt("enter your phone number");
     prompt("enter your location");
     alert("Your pizza will be delivered");
-        
-    
-        //a method to reset the form after all operations have been completed
-        $("#text-center").reset();
-    
         event.preventDefault();
       });
     });
