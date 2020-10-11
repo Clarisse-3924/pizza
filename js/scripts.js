@@ -39,11 +39,10 @@ $(document).ready(function() {
         var totalCost =(userInput.newSize +userInput.newCrust + userInput.newTopping+userInput.newDelivery) * userInput.newQuantity;
         //prompts for the user
         alert("Your charges for Pizza" + totalCost);
-        prompt("Enter your phone number");
-        prompt("enter your location");
-        alert("Your pizza will be delivered. Ignore this Message If you haven't choose Delivery");
-        alert("Thank you for being with us!!!")
-       
+    prompt("enter your email address");
+    prompt("enter your phone number");
+    prompt("enter your location");
+    alert("Your pizza will be delivered");
         
     
         //a method to reset the form after all operations have been completed
