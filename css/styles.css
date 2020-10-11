@@ -20,3 +20,13 @@ margin-left: 200px;
     margin-right: 200px;
     background-color:lightgrey;
 }
+.paragraph{
+     
+     margin-top:0.5%;
+     color:blue;
+     padding: 20px;
+     justify-content: center;
+     max-width: 500px;
+     margin-left: 300px;
+
+    }

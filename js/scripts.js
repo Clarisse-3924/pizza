@@ -51,5 +51,12 @@ $(document).ready(function() {
         event.preventDefault();
       });
     });
-
+    $(document).ready(function(){
+      $("#form1").submit(function(){
+        var name=$("input#name").val();
+        alert(name+" " +"We have received your message");
+         
+      });
+    })
+    
     
