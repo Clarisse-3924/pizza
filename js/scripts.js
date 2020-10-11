@@ -44,10 +44,12 @@ $(document).ready(function() {
         inputs.myToppings) *
         inputs.myNumber;
 // getting the user information for those who have choosen delivery
-        prompt("enter your phone number");
-        alert("Ignore the following messages if you have not choose delivery")
-        prompt("enter your location");
+alert("Ignore the following messages if you have not choose delivery")
+        prompt("Enter your phone number");
+         prompt("Enter your location");
         alert("Your pizza will be delivered");
+       
+
         //showing the hidden div which have class check, where it will show the summary of clients order
         $(".check").show();
         // printing the values that span ids contain in html depending of the values that the user have entered
