@@ -14,35 +14,49 @@
         </div>
         <div class="jumbotron" id="form">
           
-            <form class="form-group" id="text-center">
+            <form id="form">
                  <h4>MAKE ORDER!!!</h4>
-                <br><label>Size</label><br>
-                <input type="radio" name="size" value="300">Small</input>
-                <input type="radio"  name="size"value="500">Medium</input>
-                <input type="radio"  name="size"value="700">Large</input><br>
-
-                <br><label>pizza Crust</label><br>
-                <input type="radio" name ="crust" value="200">Crispy</input>
-                <input type="radio" name ="crust" value="250">Stuffed</input>
-                <input type="radio" name ="crust" value="300">Gluten-free</input><br>
-
-                <br><label>pizza Topping</label><br>
-              <input type="checkbox" id ="topping" value="300">Mushrooms</input>
-                <input type="checkbox" id ="topping" value="350">Onions</input>
-                <input type="checkbox" id ="topping" value="400">Sausage</input><br>
-               <br><label>Number of pizza</label><br>
-          <input required placeholder="number of pizza" id="quantity"></input><br>
-          <select class="toppings" id="delivery" required><br>
-            <option label="Delivery:500RWF" value="500">Delivery:500RWF</option>
-            <option label="Pick Up:0Rwf" value="0">Pick Up:0Rwf</option>
-            <br><br><button type="submit" id="btn"  label="">Delivery</button>
-          </select><br>
-        <div class="button">
-          <br><br><button type="submit" id="btn"  label="">submit</button>
-          
-        </div>
-      </form>
-    </div>
+                    <div class="form-group">
+         choose size:<br>
+                        <input type="radio" value=400 id="sizes">Small</option>
+                        <input type="radio"  value=700 id="sizes">Medium</option>
+                        <input type="radio" value=1000 id="sizes" >Large</option><br>
+                        choose crust:<br>
+                        <input type="radio" value=250 id="crusts">Crispy crust</option>
+                        <input type="radio" value=310 id="crusts">Stuffed Crust</option>
+                        <input type="radio" value=370 id="crusts"> Gluten-free crust</option><br>
+                       choose topping:<br>
+                        <input type="radio" value=150  id=toppings>Mushroom</option>
+                        <input type="radio" value=100  id="toppings">Onions</option>
+                        <input type="radio" val=300  id="toppings">Sausage</option><br>
+                        select Delivery: 
+                        <select class="toppings" id="delivery" required><br>
+                            <option label="Delivery:500RWF" value="500">Delivery:500RWF</option>
+                            <option label="Pick Up:0Rwf" value="0">Pick Up:0Rwf</option>
+                            <br><br><button type="submit" id="btn"  label="">Delivery</button>
+                          </select><br>
+                      
+                      <label for="uname">Number of Pizza:</label><br>
+                      <input type="number" class="form-control" id="inputNumber" placeholder="Number of Pizza..." required>
+                        
+                      </select>
+                      </div>
+                    <button type="submit" class="btn btn-primary" id="send">CheckOut</button>
+                  </form>
+                </div>
+                <div class="check">
+                  <h2>Summary</h2>
+                  <p>The Pizza Size Value : 
+                  <span id="Size" style="color:green"></span></p>
+                  <p>The Pizza Crust Value : 
+                  <span id="Crust" style="color:green"></span></p>
+                  <p>The Pizza Toppings Value :
+                  <span id="Toppings" style="color:green"></span> </p>
+                  <p>The Delivery :
+                    <span id="Delivery" style="color:green"></span> </p>
+                  <p>The Total Price is : 
+                  <span id="answer" style="color:green"></span></p>
+                </div>
     <div>
       <div class=paragraph>
       <div>

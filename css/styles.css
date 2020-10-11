@@ -12,6 +12,12 @@ margin-right: 200px;
 justify-content: center;
 margin-left: 200px;
 }
+.results{
+     text-align: center;
+     display: none;
+     justify-content: center;
+     background-color: white;
+ }
 #form{
      box-shadow:5px 5px 20px;
     border-radius:15px;
@@ -20,6 +26,9 @@ margin-left: 200px;
     margin-right: 200px;
     background-color:lightgrey;
 }
+#story {
+     display: none;
+   }
 .paragraph{
      
      margin-top:0.5%;
