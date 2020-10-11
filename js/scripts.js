@@ -1,18 +1,16 @@
 $(document).ready(function() {
-    //form function to submit the users input, calculate total for the order, and prompt the user for some details
       $("#text-center").submit(function(event) {
-        //functions to get user input from the forms
         function size() {
-          var pizzaSize= $("input:radio[name=size]:checked").val();
-          return parseInt(pizzaSize);
+          var sizes= $("input:radio[name=size]:checked").val();
+          return parseInt(sizes);
         }
         function crust() {
-          var pizzaCrust = document.getElementById("crust").value;
-          return parseInt(pizzaCrust);
+          var crusts= $("input:radio[name=crust]:checked").val();
+          return parseInt(crusts);
         }
         function topping() {
-          var pizzaTopping = document.getElementById("topping").value;
-          return parseInt(pizzaTopping);
+          var toppings = document.getElementById("topping").value;
+          return parseInt(toppings);
         }
         function number() {
           var pizzaNumber = document.getElementById("quantity").value;
@@ -22,28 +20,22 @@ $(document).ready(function() {
             var delivery = document.getElementById("delivery").value;
             return parseInt(delivery);
           }
-    
-        //a constructor to create objects/instances of a user's orders
-        function Order( size, crust, topping, quantity,delivery) {
+        function myOrder( size, crust, topping, quantity,delivery) {
           this.newSize = size;
           this.newCrust = crust;
           this.newTopping = topping;
           this.newQuantity = quantity;
           this.newDelivery=delivery;
         }
-    
-        //an object/instance (of the above constructor) to save the users order
-        var userInput = new Order(size(), crust(), topping(), number(),delivery());
-    
-        //a variable to store the total expenditure of the user
+        var userInput = new myOrder(size(), crust(), topping(), number(),delivery());
         var totalCost =(userInput.newSize +userInput.newCrust + userInput.newTopping+userInput.newDelivery) * userInput.newQuantity;
-        //prompts for the user
         alert("Your charges for Pizza" + totalCost);
     prompt("enter your email address");
     prompt("enter your phone number");
     prompt("enter your location");
     alert("Your pizza will be delivered");
-        event.preventDefault();
+       
+    
       });
     });
     $(document).ready(function(){
