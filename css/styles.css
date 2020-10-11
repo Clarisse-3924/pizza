@@ -12,11 +12,13 @@ margin-right: 200px;
 justify-content: center;
 margin-left: 200px;
 }
-.results{
+.check{
      text-align: center;
      display: none;
      justify-content: center;
      background-color: white;
+     margin-left: 200px;
+margin-right: 200px;
  }
 #form{
      box-shadow:5px 5px 20px;
