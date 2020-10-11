@@ -40,8 +40,7 @@ $(document).ready(function() {
         //prompts for the user
         alert("Your charges for Pizza" + totalCost);
         prompt("Enter your phone number");
-        alert("If you haven't choose delivery Ignore location")
-        prompt("Enter your location");
+        prompt("enter your location");
         alert("Your pizza will be delivered. Ignore this Message If you haven't choose Delivery");
         alert("Thank you for being with us!!!")
        
