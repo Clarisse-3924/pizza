@@ -3,7 +3,7 @@ $(document).ready(function() {
       $("#text-center").submit(function(event) {
         //functions to get user input from the forms
         function size() {
-          var pizzaSize = document.getElementById("size").value;
+          var pizzaSize= $("input:radio[name=size]:checked").val();
           return parseInt(pizzaSize);
         }
         function crust() {

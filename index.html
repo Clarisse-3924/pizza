@@ -17,14 +17,14 @@
             <form class="form-group" id="text-center">
                  <h4>MAKE ORDER!!!</h4>
                 <br><label>Size</label><br>
-                <input type="radio" id ="size" value="300">Small</input>
-                <input type="radio" id ="size" value="500">Medium</input>
-                <input type="radio" id ="size" value="700">Large</input><br>
+                <input type="radio" name="size" value="300">Small</input>
+                <input type="radio"  name="size"value="500">Medium</input>
+                <input type="radio"  name="size"value="700">Large</input><br>
 
                 <br><label>pizza Crust</label><br>
-                <input type="radio" id ="crust" value="200">Crispy</input>
-                <input type="radio" id ="crust" value="250">Stuffed</input>
-                <input type="radio" id ="crust" value="300">Gluten-free</input><br>
+                <input type="radio" name ="crust" value="200">Crispy</input>
+                <input type="radio" name ="crust" value="250">Stuffed</input>
+                <input type="radio" name ="crust" value="300">Gluten-free</input><br>
 
                 <br><label>pizza Topping</label><br>
               <input type="checkbox" id ="topping" value="300">Mushrooms</input>
@@ -43,6 +43,18 @@
         </div>
       </form>
     </div>
+    <div>
+      <strong>  <h1>CONTACT US</h1></strong> 
+      </div>
+      <div class=paragraph>
+      <form class="form-group" id="form">
+          <label><input type="text" id="name" placeholder="Name..." class="form-control" required ></label>
+          <label><input type="text" id="email" placeholder="Email..." class="form-control" required></label><br>
+          <label><textarea  id="comment" placeholder="Your Message here..." rows="8" cols="40" class="form-control"></textarea></label>
+          <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      </div>
     </div>
 </body>
 </html>
