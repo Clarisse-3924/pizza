@@ -18,17 +18,17 @@
                  <h4>MAKE ORDER!!!</h4>
                     <div class="form-group">
          choose size:<br>
-                        <input type="radio" value=400 id="sizes">Small</option>
-                        <input type="radio"  value=700 id="sizes">Medium</option>
-                        <input type="radio" value=1000 id="sizes" >Large</option><br>
+                        <input type="radio" value=700 name="sizes">Small</option>
+                        <input type="radio"  value=800 name="sizes">Medium</option>
+                        <input type="radio" value=1000 name="sizes" >Large</option><br>
                         choose crust:<br>
-                        <input type="radio" value=250 id="crusts">Crispy crust</option>
-                        <input type="radio" value=310 id="crusts">Stuffed Crust</option>
-                        <input type="radio" value=370 id="crusts"> Gluten-free crust</option><br>
+                        <input type="radio" value=200 name="crusts">Crispy</option>
+                        <input type="radio" value=300 name="crusts">Stuffed</option>
+                        <input type="radio" value=40 name="crusts"> Gluten-free </option><br>
                        choose topping:<br>
-                        <input type="radio" value=150  id=toppings>Mushroom</option>
-                        <input type="radio" value=100  id="toppings">Onions</option>
-                        <input type="radio" val=300  id="toppings">Sausage</option><br>
+                        <input type="checkbox" value=250  id=toppings>Mushroom</option>
+                        <input type="checkbox" value=300  id="toppings">Onions</option>
+                        <input type="checkbox" val=350  id="toppings">Sausage</option><br>
                         select Delivery: 
                         <select class="toppings" id="delivery" required><br>
                             <option label="Delivery:500RWF" value="500">Delivery:500RWF</option>
@@ -46,16 +46,18 @@
                 </div>
                 <div class="check">
                   <h2>Summary</h2>
-                  <p>The Pizza Size Value : 
+                  <p>Pizza Size : 
                   <span id="Size"></span></p>
-                  <p>The Pizza Crust Value : 
+                  <p> Crust : 
                   <span id="Crust" ></span></p>
-                  <p>The Pizza Toppings Value :
+                  <p>Toppings :
                   <span id="Toppings"></span> </p>
+                  <p>The quantity :
+                    <span id="quantity"></span> </p>
                   <p>The Delivery :
                     <span id="Delivery" ></span> </p>
                   <strong><p>The Total Price is : 
-                  <span id="answer" ></span></p></strong>
+                  <span id="out" ></span></p></strong>
                 </div>
     <div>
       <div class=paragraph>

@@ -55,7 +55,8 @@ $(document).ready(function() {
         document.getElementById("Crust").innerHTML= inputs.myCrust + (" Rwf");
         document.getElementById("Toppings").innerHTML=inputs.myToppings + (" Rwf");
         document.getElementById("Delivery").innerHTML=inputs.myDelivery + (" Rwf");
-        document.getElementById("answer").innerHTML=totalCost+(" Rwf");
+        document.getElementById("quantity").innerHTML=inputs.myNumber + (" Rwf");
+        document.getElementById("out").innerHTML=totalCost+(" Rwf");
     //letting our result being shown long time
     event.preventDefault();
   });
