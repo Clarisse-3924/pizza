@@ -1,8 +1,6 @@
 body{
         background: url(../images/piza.jpg) no-repeat center;
         background-size: cover;
-        height: 100%;
-        color:white;
-       
-       
+       color:blue;      
 }
+.see{display: none;}

@@ -11,36 +11,46 @@
     <div class="container">
         <div class="home">
             <div><h1>Welcome to Online Pizza Store</h1></div>
-
-
-
-
         </div>
-        <form class="form-group" id="form">
-            <label><input type="text" id="name" placeholder="Name..." class="form-control" required ></label><br>
-            <label><input type="text" id="email" placeholder="Email..." class="form-control" required></label><br>
-                   <p>Choose your favorite size</p>
-                   <label><input type="radio" required placeholder="1000rwf/1piece"></input>Small Size</label><br>
-                   <label><input type="radio"  required placeholder="2000rwf/1piece"></input>Medium</label><br>
-                   <label><input type="radio" required placeholder="3000rwf/1piece"></input>Large</label><br>
-                   <p>Choose crust</p>
-                   <label><input type="radio"  required name="crust"></input> Crispy</label><br>
-                   <label><input type="radio" required name="crust"></input>  Stuffed</label><br>
-                   <label><input type="radio" required name="crust"></input> Gluten-free</label><br>
-                   <p>Choose Toppings</p>
-                   <label><input type="radio"  required name="crust"></input>Mushrooms</label><br>
-                   <label><input type="radio" required name="crust"></input> Onions</label><br>
-                   <label><input type="radio"  required name="crust"></input> Sausage</label><br>
-                   <p> select the quantity</p>
-                   <label><input type="number" class="form-control" required>Quntity</input></label><br>
-                   <select class="form-control" id="beverage">
-                    <option>Delivered</option>
-                    <option>Not Delivered</option>
-                  </select><br>
+        <div class="jumbotron" id="orders">
+            <h1>Order</h1>
+            <form class="text-center" id="text-center">
 
-        <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+                <br><label>Size</label><br>
+                <input type="radio" id ="size" value="300">Small</input>
+                <input type="radio" id ="size" value="500">Medium</input>
+                <input type="radio" id ="size" value="700">Large</input><br>
 
+                <br><label>pizza Crust</label><br>
+                <input type="radio" id ="crust" value="200">Crispy</input>
+                <input type="radio" id ="crust" value="250">Stuffed</input>
+                <input type="radio" id ="crust" value="300">Gluten-free</input><br>
+
+                <br><label>pizza Topping</label><br>
+              <input type="checkbox" id ="topping" value="300">Mushrooms</input>
+                <input type="checkbox" id ="topping" value="350">Onions</input>
+                <input type="checkbox" id ="topping" value="400">Sausage</input><br>
+               <br><label>Number of pizza</label><br>
+          <input required placeholder="number of pizza" id="quantity"></input><br>
+          <select class="toppings" id="delivery" required><br>
+            <option label="Delivery:500RWF" value="500">Delivery:500RWF</option>
+            <option label="Pick Up:0Rwf" value="0">Pick Up:0Rwf</option>
+            <br><br><button type="submit" id="btn"  label="">Delivery</button>
+          </select><br>
+        <div class="button">
+          <br><br><button type="submit" id="btn"  label="">submit</button>
+        </div>
+      </form>
+      <p>CheckOut</p>
+      <p class="see"> This is what you ordered!!!<br>
+        Size:<span class="size"></span><br>Crust:<span class="crust"></span>,<br>
+        Topping:<span class="topping"></span><br>
+         quantity:<span class="quantity"></span><br>
+         Total Cost<span class="cost"></span></p>
+      <form >
+        <br><label>Delivery prices</label><br>
+      </form>
+    </div>
     </div>
 </body>
 </html>
